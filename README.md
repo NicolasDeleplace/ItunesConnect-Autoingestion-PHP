@@ -2,7 +2,7 @@
 Use the Autoingestion tool to download sales reports on Itunes Connect.
 
 ## API Reference
-# getData(ReportType, ReportSubType, DateType, ReportDate);
+### getData(ReportType, ReportSubType, DateType, ReportDate);
 
 ReportType: Sales or Newsstand
 ReportSubType: Summary, Detailed, or Opt-In
@@ -11,10 +11,10 @@ ReportDate: YYYYMMDD (Daily or Weekly),YYYYMM (Monthly) or YYYY (Yearly)
 
 ## Example
 
- = new ItunesAutoIngestion(<MY_USERNAME>, <MY_PASSWORD>, <MY_VENDOR_ID>);
- = ->getData(Sales, Summary, Daily, 20160228);
+$autoingestion = new ItunesAutoIngestion(<MY_USERNAME>, <MY_PASSWORD>, <MY_VENDOR_ID>);
+$data = $autoingestion->getData(Sales, Summary, Daily, 20160228);
 
- contains the summary reports of sales for Feb. 28, 2016
+$data contains the summary reports of sales for Feb. 28, 2016
 
 ## Where is the Vendor ID
 
