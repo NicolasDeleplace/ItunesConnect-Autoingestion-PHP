@@ -11,10 +11,10 @@ Use the Autoingestion tool to download sales reports on Itunes Connect.
 
 ## Example
 
-$autoingestion = new ItunesAutoIngestion(MY_USERNAME, MY_PASSWORD, MY_VENDOR_ID);
-$data = $autoingestion->getData(Sales, Summary, Daily, 20160228);
-
-$data contains the summary reports of sales for Feb. 28, 2016
+$autoingestion = new ItunesAutoIngestion(MY_USERNAME, MY_PASSWORD, MY_VENDOR_ID); <br/>
+$data = $autoingestion->getData(Sales, Summary, Daily, 20160228); <br/>
+<br/>
+$data contains the summary reports of sales for Feb. 28, 2016<br/>
 
 ## Where is the Vendor ID
 
